@@ -1,0 +1,39 @@
+.button {
+    background-color: blanchedalmond;
+    padding: 10px 25px 10px 25px;
+    border-radius: 4%;
+    border: 1px black solid;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    background-color: rgb(249, 255, 196);
+}
+
+.oneButtonContainer:not(:first-child) {
+    margin-left: 20px;
+}
+
+.buttonList{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.mainText{
+    font-weight: 400;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.mainFeedbackText{
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.feedbackText{
+    font-size: 25px;
+    font-weight: 400;
+}
